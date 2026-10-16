@@ -6,7 +6,7 @@ import { mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
-const fps = Number(process.argv[2]) || 30;
+const fps = Number(process.argv[2]) || 20;
 const out = resolve("assets/banner/frames");
 mkdirSync(out, { recursive: true });
 

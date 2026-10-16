@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="ANDRESSA — Software Engineering" width="100%">
-
-<!-- After exporting, replace with: <img src="assets/banner/banner.webp" ...> -->
+<img src="assets/banner/banner.webp" alt="ANDRESSA — Software Engineering" width="100%">
 
 # Hi, I'm Andressa Pedrosa da Silva 👋
 
@@ -56,39 +54,37 @@ I'm a Software Engineering student with professional experience in **Full-Stack 
 
 ## 🚀 Featured Projects
 
-<!-- Replace each placeholder with a real repository (change the repo name below). -->
+<!-- Replace each YOUR-... URL with the real repository link. -->
 <table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/dev.andressa/YOUR-PROJECT-1"><b>Project 1</b></a><br>
-      <sub>Add a short description of the project here.</sub>
+    <td width="33%" valign="top">
+      <a href="https://github.com/Andressapsilva/YOUR-STREAMPULSE-REPO"><b>StreamPulse</b></a><br>
+      <sub>Pub/Sub streaming notification system built with React and TypeScript.</sub>
     </td>
-    <td width="50%">
-      <a href="https://github.com/dev.andressa/YOUR-PROJECT-2"><b>Project 2</b></a><br>
-      <sub>Add a short description of the project here.</sub>
+    <td width="33%" valign="top">
+      <a href="https://github.com/Andressapsilva/YOUR-DOCHUB-REPO"><b>DocHub</b></a><br>
+      <sub>Document processing tools built with Python and FastAPI.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/Andressapsilva/YOUR-GEEKSTORE-REPO"><b>Geek Store</b></a><br>
+      <sub>Python desktop application using CustomTkinter and OOP.</sub>
     </td>
   </tr>
 </table>
-
-Or use the pinned repositories card (set `repo=` to your own repository):
-
-```md
-[![Repo card](https://github-readme-stats.vercel.app/api/pin/?username=dev.andressa&repo=REPO_NAME&theme=radical)](https://github.com/dev.andressa/REPO_NAME)
-```
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=dev.andressa&show_icons=true&theme=radical&hide_border=true&bg_color=0b0816" />
-<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev.andressa&layout=compact&theme=radical&hide_border=true&bg_color=0b0816" />
+<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Andressapsilva&show_icons=true&theme=radical&hide_border=true&bg_color=0b0816" />
+<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Andressapsilva&layout=compact&theme=radical&hide_border=true&bg_color=0b0816" />
 
 </div>
 
 ## 🔗 Links
 
 <!-- Edit the URLs below: only keep the links you want to show. -->
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dev.andressa)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Andressapsilva)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN)
 [![Email](https://img.shields.io/badge/-Email-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-60a5fa?style=for-the-badge&logo=googlechrome&logoColor=white)](https://YOUR-PORTFOLIO-URL)
@@ -99,11 +95,12 @@ Or use the pinned repositories card (set `repo=` to your own repository):
 
 ```
 assets/
-├── banner.svg          # animated SVG used in this README
 └── banner/
     ├── index.html      # standalone page (1200×300)
     ├── banner.css
-    └── banner.js       # pseudo-3D rotating icosahedron (Canvas, no dependencies)
+    ├── banner.js       # pseudo-3D rotating icosahedron (Canvas, no dependencies)
+    ├── banner.webp     # exported animation used above (160 frames, 20 fps, 8 s loop)
+    └── preview.png     # static screenshot
 scripts/export-frames.mjs
 ```
 
@@ -113,14 +110,12 @@ scripts/export-frames.mjs
 python3 -m http.server 8000   # then open http://localhost:8000/assets/banner/
 ```
 
-**Export as GIF / WebP:** the animation is deterministic and loops every 8 s. Use `?t=SECONDS` to view a single frame.
+**Export as WebP / GIF:** the animation is deterministic and loops every 8 s. Use `?t=SECONDS` to view a single frame.
 
 ```bash
 npm i --no-save playwright && npx playwright install chromium
-node scripts/export-frames.mjs 30          # PNG frames -> assets/banner/frames/
+node scripts/export-frames.mjs 20          # PNG frames -> assets/banner/frames/
 
-ffmpeg -framerate 30 -i assets/banner/frames/frame-%04d.png -loop 0 -c:v libwebp -lossless 0 -q:v 80 assets/banner/banner.webp
-ffmpeg -framerate 30 -i assets/banner/frames/frame-%04d.png -vf "split[a][b];[a]palettegen[p];[b][p]paletteuse" -loop 0 assets/banner/banner.gif
+ffmpeg -framerate 20 -i assets/banner/frames/frame-%04d.png -loop 0 -c:v libwebp -lossless 0 -q:v 75 assets/banner/banner.webp
+ffmpeg -framerate 20 -i assets/banner/frames/frame-%04d.png -vf "split[a][b];[a]palettegen[p];[b][p]paletteuse" -loop 0 assets/banner/banner.gif
 ```
-
-Then point the `<img>` at the top of this README to the exported file.
