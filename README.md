@@ -16,12 +16,11 @@
 
 ## 💜 About Me
 
-I'm a Software Engineering student with professional experience in **Full-Stack development**, building **web systems, internal tools and process automation**.
+Hi, I'm **Andressa Pedrosa da Silva**, a Software Engineering student in my 6th semester. I have professional experience as a **Junior IT Assistant / Developer**, and previously worked as a **Development Intern**. I've worked on Full-Stack web applications, internal management systems, database integrations, and process automation solutions using React, TypeScript, JavaScript, Python, PostgreSQL, Supabase, and related technologies.
 
-- 🌐 Web development
-- 🤖 Artificial intelligence
-- ⚙️ Automation
-- 🎮 Game development
+### A Little More About Me
+
+I'm based in Brazil and interested in remote and international career opportunities. I'm especially interested in Artificial Intelligence, Automation, Software Architecture, and Game Development. Outside of work and study, I enjoy gaming, exploring new technologies, and developing creative projects.
 
 ## 🛠️ Tech Stack
 
@@ -81,20 +80,14 @@ I'm a Software Engineering student with professional experience in **Full-Stack 
 
 </div>
 
-## 🔗 Links
+## 🔗 Connect With Me
 
-<!-- Edit the URLs below: only keep the links you want to show. -->
+<div align="center">
+
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Andressapsilva)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN)
-[![Email](https://img.shields.io/badge/-Email-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-60a5fa?style=for-the-badge&logo=googlechrome&logoColor=white)](https://YOUR-PORTFOLIO-URL)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andressapedrosadasilva/)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/andressa.pds/)
+[![Discord](https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/992471667047674046)
+[![Gmail](https://img.shields.io/badge/-Gmail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andressaps.dev@gmail.com)
 
-me.
-
-```bash
-npm i --no-save playwright && npx playwright install chromium
-node scripts/export-frames.mjs 20          # PNG frames -> assets/banner/frames/
-
-ffmpeg -framerate 20 -i assets/banner/frames/frame-%04d.png -loop 0 -c:v libwebp -lossless 0 -q:v 75 assets/banner/banner.webp
-ffmpeg -framerate 20 -i assets/banner/frames/frame-%04d.png -vf "split[a][b];[a]palettegen[p];[b][p]paletteuse" -loop 0 assets/banner/banner.gif
-```
+</div>
