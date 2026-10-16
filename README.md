@@ -2,7 +2,7 @@
 
 <img src="assets/banner/banner.webp" alt="ANDRESSA — Software Engineering" width="100%">
 
-# Hi, I'm Andressa Pedrosa da Silva 👋
+# Hi, I'm Andressa  👋
 
 **Software Engineering student · Full-Stack Developer**
 
