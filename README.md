@@ -89,28 +89,7 @@ I'm a Software Engineering student with professional experience in **Full-Stack 
 [![Email](https://img.shields.io/badge/-Email-7c3aed?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-60a5fa?style=for-the-badge&logo=googlechrome&logoColor=white)](https://YOUR-PORTFOLIO-URL)
 
----
-
-## 🎬 Animated Banner
-
-```
-assets/
-└── banner/
-    ├── index.html      # standalone page (1200×300)
-    ├── banner.css
-    ├── banner.js       # pseudo-3D rotating icosahedron (Canvas, no dependencies)
-    ├── banner.webp     # exported animation used above (160 frames, 20 fps, 8 s loop)
-    └── preview.png     # static screenshot
-scripts/export-frames.mjs
-```
-
-**Run / preview:** open `assets/banner/index.html` in a browser, or serve it:
-
-```bash
-python3 -m http.server 8000   # then open http://localhost:8000/assets/banner/
-```
-
-**Export as WebP / GIF:** the animation is deterministic and loops every 8 s. Use `?t=SECONDS` to view a single frame.
+me.
 
 ```bash
 npm i --no-save playwright && npx playwright install chromium
