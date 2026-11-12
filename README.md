@@ -68,8 +68,8 @@ I'm based in Brazil and interested in remote and international career opportunit
 
 <div align="center">
 
-<img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Andressapsilva&show_icons=true&theme=radical&hide_border=true&bg_color=0b0816" />
-<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Andressapsilva&layout=compact&theme=radical&hide_border=true&bg_color=0b0816" />
+<img height="170" alt="GitHub stats" src="https://github-stats-extended.vercel.app/api?username=Andressapsilva&show_icons=true&theme=radical&hide_border=true&bg_color=0b0816" />
+<img height="170" alt="Top languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Andressapsilva&layout=compact&theme=radical&hide_border=true&bg_color=0b0816" />
 
 </div>
 
@@ -77,6 +77,7 @@ I'm based in Brazil and interested in remote and international career opportunit
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20my%20site-8B5CF6?style=for-the-badge)](https://andressapsilva.github.io/Portfolio-Andressa/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Andressapsilva)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andressapedrosadasilva/)
 [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/andressa.pds/)
